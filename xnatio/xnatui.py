@@ -269,7 +269,6 @@ class XnatUI(SubjectData):
         """
         projects = self.get_available_projects()
 
-
         #possible improvement: re.compile
         for project in projects:
             if not re.match(regex, project) is None:
